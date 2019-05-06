@@ -9,7 +9,7 @@ import sys
 # Use `scrapy runspider __name__.py` to scrape.
 
 # Exteremly verbose UserAgent string
-UA = f'Scrapy/{scrapy.__version__} Python/{".".join(map(lambda x: str(x), sys.version_info[0:3]))} AfraidOrg_SpiderExample'
+UA = f'Scrapy/{scrapy.__version__} Python/{".".join(map(lambda x: str(x), sys.version_info[0:3]))} (github.com/zvodd/scrapy-example-afraid.org)'
 DEFAULT_START_URL = 'http://freedns.afraid.org/domain/registry/'
 DB_CONNECT = 'sqlite:///output.sqlite'
 
